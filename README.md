@@ -1,4 +1,4 @@
-# シンプルRAG chatbot
+# Simple chatbot
 
 ## 概要
 
@@ -13,11 +13,9 @@ Google Gemini APIを活用した2種類のチャットボット実装を提供�
 ### 標準チャットボット（chatbot.py）
 - Gemini 1.5 Flashモデルによる自然な会話
 - 会話履歴の保持とコンテキスト認識
-- シンプルなコマンドライン・インターフェース
 
 ### RAGチャットボット（main.py）
 - ChromaDBを用いたベクトルデータベースによる効率的な情報検索
-- Gemini 1.5 Proモデルによる高品質な回答生成
 - 知識ベースに存在しない情報への適切な対応
 - 自動データベース初期化機能
 
@@ -30,8 +28,7 @@ Google Gemini APIを活用した2種類のチャットボット実装を提供�
 
 ```bash
 # リポジトリのクローン
-git clone https://github.com/yourusername/simple-rag-chatbot.git
-cd simple-rag-chatbot
+git clone https://github.com/Yugo0000999921/My_chatbot.git
 
 
 
